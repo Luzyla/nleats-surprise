@@ -97,4 +97,62 @@ h2 {
     display: flex;
     justify-content: center;
     width: 40vw;
+    padding-top: 50px;
+}
+
+.div-2-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-tarjeta {
+    /*max-width: 45vw;
+    max-height: 45vw;*/
+    background-color: #FAFAFA25;
+    border-radius: 8px;
+    border: 2px solid #42424225;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.img-quote {
+    max-width: 35vw;
+    margin: 10px;
+
+}
+
+.button-quote {
+    background-color: none;
+    border-radius: 30px;
+    color: #fa709a;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-quote:hover {
+    color: #fafafa;
+    font-weight: bold;
+}
+
+/*-------------------------------
+        DIV QUOTE
+-------------------------------*/
+.seccion-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #42424260;
+    margin-top: 35px
+}
+
+.p-footer {
+    font-size: 20px;
+    margin: 15px
 }
