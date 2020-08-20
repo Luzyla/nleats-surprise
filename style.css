@@ -129,6 +129,7 @@ h2 {
 
 .button-quote {
     background-color: none;
+    border: none;
     border-radius: 30px;
     color: #fa709a;
     font-weight: bold;
