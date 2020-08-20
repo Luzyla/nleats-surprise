@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+
+/*-------------------------------
+        BASIC STYLES
+-------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Oregano';
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    color: #424242;
+}
+
+a {
+    text-decoration: none;
+    color: #fee140;
+}
+
+a:hover {
+    color: #fafafa;
+    font-weight: bold;
+}
+
+/*-------------------------------
+            HEADER
+-------------------------------*/
+
+h1 {
+    font-family: 'Luckiest Guy';
+    font-weight: 900;
+    font-size: 60px;
+    color: #fafafa;
+    text-shadow: 2px 2px 4px #424242;
+    text-align: center;
+}
+
+.div-h1 {
+    margin: 0 10px 10px 10px;
+    padding-top: 30px;
+}
+
+header {
+    background-color: #fafafa60;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
+}
+
+/*-------------------------------
+        SECCION PRINCIPAL
+-------------------------------*/
+
+h2 {
+    font-family: 'Oregano';
+    color: #fafafa;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px #000000
+}
+
+.div-h2 {
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------------
+        DIV QUOTE
+-------------------------------*/
+.div-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-quote {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #fafafa;
+    padding: 0px 30px;
+}
+
+.span-quote {
+    font-weight: bold;
+}
+
+.div-p-quote {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+}
