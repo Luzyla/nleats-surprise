@@ -12,4 +12,4 @@ NL Eats organized an entire day to be gratefull with they volunteers, but I'm in
     - Math Random
     - conditional function
 
-## (VIEW THE SITE)[https://nleats-surprise.netlify.app/]
+## [VIEW THE SITE](https://nleats-surprise.netlify.app/)
