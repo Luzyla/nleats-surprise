@@ -28,6 +28,10 @@ a:hover {
     font-weight: bold;
 }
 
+a:focus {
+    outline: 0.2px dotted #424242;
+}
+
 /*-------------------------------
             HEADER
 -------------------------------*/
@@ -91,6 +95,7 @@ h2 {
 
 .span-quote {
     font-weight: bold;
+    font-size: 35px;
 }
 
 .div-p-quote {
@@ -108,8 +113,6 @@ h2 {
 }
 
 .div-tarjeta {
-    /*max-width: 45vw;
-    max-height: 45vw;*/
     background-color: #FAFAFA25;
     border-radius: 8px;
     border: 2px solid #42424225;
@@ -128,11 +131,13 @@ h2 {
 }
 
 .button-quote {
-    background-color: none;
+    background-color: #483d8b;
     border: none;
     border-radius: 30px;
-    color: #fa709a;
+    font-family: Calibri, sans-serif;
+    color: #fee140;
     font-weight: bold;
+    font-size: 18px;
     padding: 20px 40px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -141,10 +146,16 @@ h2 {
 .button-quote:hover {
     color: #fafafa;
     font-weight: bold;
+    background: rgba(0, 0, 0, 0)
+
+}
+
+.button-quote:focus {
+    outline: 0.4px dotted #fa709a; 
 }
 
 /*-------------------------------
-        DIV QUOTE
+        DIV FOOTER
 -------------------------------*/
 .seccion-footer {
     display: flex;
@@ -157,3 +168,93 @@ h2 {
     font-size: 20px;
     margin: 15px
 }
+
+
+/*-------------------------------
+        MEDIA MAX 600px
+-------------------------------*/
+@media (max-width: 600px) and (min-width: 431px) {
+
+    /*-------------------------------
+                HEADER
+    -------------------------------*/
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .div-h1 {
+        padding-top: 15px;
+    }
+
+    header {
+        height: 20vh;
+    }
+
+    /*-------------------------------
+            SECCION PRINCIPAL
+    -------------------------------*/
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .div-h2 {
+        margin: 20px;
+        padding: 5px;
+    }
+
+    /*-------------------------------
+            DIV QUOTE
+    -------------------------------*/
+    
+    .div-p-quote {
+        width: 75vw;
+    }
+
+    /*-------------------------------
+            FOOTER
+    -------------------------------*/
+    
+}
+
+/*-------------------------------
+        MEDIA MAX 430px
+-------------------------------*/
+@media (max-width: 430px) {
+
+    /*-------------------------------
+                HEADER
+    -------------------------------*/
+
+    
+    /*-------------------------------
+            SECCION PRINCIPAL
+    -------------------------------*/
+
+    
+    /*-------------------------------
+            DIV QUOTE
+    -------------------------------*/
+    
+    .p-quote {
+        font-size: 25px;
+    }
+    
+    .span-quote {
+        font-size: 30px;
+    }
+    
+    .img-quote {
+        height: 55vh;
+    }
+    
+    .button-quote {
+        font-size: 16px;
+    }
+    
+}
+
+/*-------------------------------
+        @Luzyla
+-------------------------------*/
